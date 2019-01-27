@@ -1,0 +1,58 @@
+
+.blog-container {
+  font-family:  Helvetica, Arial, sans-serif;
+}
+
+.title-date{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 0 2rem;
+}
+
+.date {
+font-size: .9rem;
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+.text-and-buttons{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.blog-body-snippet {
+  margin-left: 1rem;
+  font-size: 1rem;
+
+}
+
+.edit-del button {
+  border-style: none;
+  border-radius: .3rem;
+  box-shadow: 2px 2px 2px gray;
+  margin: .2rem;
+  font-size: 1rem;
+  background-color: rgba(236,226,212, 0.8);
+  padding: .2rem .5rem .2rem .5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: oblique;
+}
+.edit-del button:hover{
+  cursor: pointer;
+} 
+
+.edit-link{
+  text-decoration: none;
+  border-style: none;
+  border-radius: .3rem;
+  box-shadow: 2px 2px 2px gray;
+  margin: .2rem;
+  font-size: 1rem;
+  background-color: rgba(236,226,212, 0.8);
+  color: black;
+  padding: .2rem .5rem .2rem .5rem;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: oblique;
+}

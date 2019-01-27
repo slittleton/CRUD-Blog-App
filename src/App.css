@@ -1,0 +1,273 @@
+
+.banner{
+  background-color: rgba(236,226,212, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 2px rgb(88, 61, 44);
+}
+
+.banner h1{
+  font-family: 'breve', Courier, monospace;
+  margin-left: 1rem;
+  color: rgba(54,37,27) 
+}
+
+#logo{
+  height: 4rem;
+  float:right;
+  margin-right: 1rem;
+  border-radius:1000%;
+  box-shadow: 2px 2px 2px rgb(71, 71, 71);
+  background-color: rgba(54,37,27);
+}
+.menu{
+  border-radius:.3rem;
+  height: 20rem;
+  text-align:center;
+  margin: .5rem;
+  
+  /* box-shadow: 2px 2px 2px rgb(88, 61, 44); */
+}
+
+.menu-link{
+  text-decoration: none;
+  font-size:2rem;
+  margin: 1rem;
+  font-family: 'breve', Courier, monospace;
+  color: rgba(54,37,27);;
+  border: 1px solid rgba(54,37,27);
+  background-color: rgba(236,226,212, 0.8);
+  font-weight: bold;
+  border-radius: .5rem;
+  padding: .1rem .3rem .1rem .3rem;
+  
+}
+.menu-link:hover{
+    box-shadow: 2px 2px 2px rgb(27, 19, 14);
+}
+.links-area {
+
+  margin: .6rem;
+}
+.profile-pic{
+  width: 10rem;
+  height: 10rem;
+  background-image: url('./assets/img/coffeeface2.png');
+  background-size: cover;
+  margin-bottom:1rem;
+  border-radius:.3rem;
+  margin: .5rem;
+  display: flex;
+} 
+.img-centering {
+  display: flex;
+  justify-content: center;
+}
+.content{
+  margin-left:1rem;
+  border-radius:.3rem;
+  height: 100%;
+  /* box-shadow: 2px 2px 2px rgb(88, 61, 44); */
+  height: 100%;
+}
+.main {
+  margin: 1rem;
+  display:grid;
+  grid-template-columns: 13rem 7fr;
+  height: 100%
+}
+/* ================== SIGN IN STYLING =========================*/
+.signin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(236,226,212, 0.8);
+  padding: 4rem;
+  border-radius: 100%;
+}
+.h2-signin {
+  font-family: 'breve', Courier, monospace;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: rgba(54,37,27)
+}
+.signin-field  {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background:rgba(0,0,0,0.0);
+  outline: none;
+  border: 1px solid black;
+  font-family: 'breve', Courier, monospace;
+  font-size: 1.5rem;
+  color: rgba(54,37,27);
+  margin: 1rem;
+  border-radius: 1.5rem;
+}
+input[type=text] {
+  padding: 0 1rem 0 1rem;
+  font-weight:bold
+}
+
+.signin-field::placeholder{
+  color: rgba(54,37,27);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.btn-s {
+  font-size:1.6rem;
+  border-radius:1.5rem;
+  font-family: 'breve', Courier, monospace;
+  background-color: rgba(54,37,27,0.2);
+  color: black;
+  padding:.5rem;
+  border: none;
+  font-weight:bold;
+}
+.button-container-s{
+  display: flex;
+  justify-content: center;
+  padding:.3rem;
+}
+
+#signin-body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/img/coffeebackground2.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+/* NEW BLOG - Styling =============================================== */
+.new-blog-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'breve', Courier, monospace;
+  font-size: 2rem;
+  color: rgb(54,37,27);
+}
+.content{
+  height: 100%;
+}
+.blog-text-container {
+  padding: 1rem;
+}
+.blog-text{
+  width: 100%;
+  height: 100%;
+  margin-right: -1rem;
+  border: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.blog-title-container{
+  justify-content: center;
+  text-align: center;
+}
+.title{
+  margin: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(54,37,27);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+
+}
+.blog-btn-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.create-blog-btn{
+  border: none;
+  margin: 1rem;
+  color: rgba(54,37,27);
+  background-color: rgba(236,226,212, 0.8);
+  font-size: 1.5rem;
+  border-radius: .3rem;
+  box-shadow: 2px 2px 2px rgba(54,37,27);
+  font-family: 'breve', Courier, monospace;
+  font-weight: bold;
+  border: 1px solid rgba(54,37,27);
+}
+/* SETTINGS AREA - Styling ========================*/
+.settings-btn{
+  border: none;
+  margin: 1rem;
+  color: rgba(54,37,27);
+  background-color: rgba(236,226,212, 0.8);
+  font-size: 1.5rem;
+  border-radius: .3rem;
+  box-shadow: 2px 2px 2px rgba(54,37,27);
+  font-family: 'breve', Courier, monospace;
+  font-weight: bold;
+  border: 1px solid rgba(54,37,27);
+}
+
+.settings-field{
+  margin: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+.setting{
+  border: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+
+}
+.top-setting-title{
+  font-family: 'breve', Courier, monospace;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+.setting-title{
+  font-family: 'breve', Courier, monospace;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+hr {
+  margin: 1rem;
+}
+/* DisplayUser Component Styling*/
+.user{
+  font-family: 'breve', Courier, monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: .5rem;
+}
+
+.error-message {
+  color: tomato;
+  font-family: 'breve', Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.submitted {
+  color: rgb(123, 194, 123);
+  font-family: 'breve', Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/* ==================== FONTS ============================ */
+@font-face {
+  font-family: 'breve';
+  src: url('./assets/fonts/breve2-webfont.woff2') format('woff2'),
+       url('./assets/fonts/BREVE2.ttf')  format('truetype'),
+       url('./assets/fonts/breve2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

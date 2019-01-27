@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "John",
+      "pass": "Doe",
+      "blogUser": "1",
+    }
+  ],
+  "blogs": [
+    {
+      "blogDate": "1-13-2019",
+      "blogUser": "1",
+      "blogText": "This is the third blog",
+      "blogTitle": "Third Blog",
+      "blogId": "1"
+    },
+    {
+      "blogDate": "1-8-2019",
+      "blogUser": "1",
+      "blogText": "This is the second blog",
+      "blogTitle": "Second Blog",
+      "blogId": "2"  
+    },
+    {
+      "blogDate": "1-13-2019",
+      "blogUser": "1",
+      "blogText": "This is the third blog",
+      "blogTitle": "Third Blog",
+      "blogId": "3"
+    }
+  ]
+}
